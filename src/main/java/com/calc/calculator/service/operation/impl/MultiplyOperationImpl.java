@@ -1,11 +1,12 @@
-package com.calc.calculator.operation;
+package com.calc.calculator.service.operation.impl;
 
 import com.calc.calculator.dto.CalculateServiceRequest;
 import com.calc.calculator.dto.CalculateServiceResponse;
+import com.calc.calculator.service.operation.Operation;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MultiplyOperation implements Operation {
+public class MultiplyOperationImpl implements Operation {
 
     @Override
     public CalculateServiceResponse calculate(CalculateServiceRequest request) {

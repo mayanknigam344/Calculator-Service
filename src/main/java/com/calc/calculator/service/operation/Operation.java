@@ -1,4 +1,4 @@
-package com.calc.calculator.operation;
+package com.calc.calculator.service.operation;
 
 import com.calc.calculator.dto.CalculateServiceRequest;
 import com.calc.calculator.dto.CalculateServiceResponse;

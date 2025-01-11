@@ -2,7 +2,7 @@ package com.calc.calculator.service;
 
 import com.calc.calculator.dto.CalculateServiceRequest;
 import com.calc.calculator.dto.CalculateServiceResponse;
-import com.calc.calculator.operation.Operation;
+import com.calc.calculator.service.operation.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
